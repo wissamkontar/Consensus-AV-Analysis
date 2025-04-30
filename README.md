@@ -4,8 +4,7 @@ This repository contains code used for analyzing and comparing the behavior of A
 
 ## Repository Contents
 
-- **[TGSIM_Analysis_Published.ipynb](./TGSIM_Analysis_Published.ipynb)**:  
-  A fully annotated Jupyter notebook that calculates and generates:
+**[TGSIM_Analysis_Published.ipynb](./TGSIM_Analysis_Published.ipynb)** is a fully annotated Jupyter notebook that calculates and generates:
   - Time-to-Collision (TTC) and Post-Encroachment Time (PET) metrics
   - Headways 
   - Platoons
@@ -26,3 +25,12 @@ To reproduce the analysis:
 1. Download and extract the dataset locally.
 2. Update file paths in the notebook if needed.
 3. Run all cells in `TGSIM_Analysis_Published.ipynb` sequentially.
+
+Note on hesitation dataset:
+
+The dataset `Pedestrian_Hesitations_PatternBased.csv` is included as output, but its generating code is still under revision. We have appended the dataset for now to ensure full reproducibility until that section is finalized.
+
+## License
+
+This project is released under the MIT License.
+
