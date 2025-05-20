@@ -26,10 +26,6 @@ To reproduce the analysis:
 2. Update file paths in the notebook if needed.
 3. Run all cells in `TGSIM_Analysis_Published.ipynb` sequentially.
 
-Note on hesitation dataset:
-
-The dataset `Pedestrian_Hesitations_PatternBased.csv` is included as output, but its generating code is still under revision. We have appended the dataset for now to ensure full reproducibility until that section is finalized.
-
 ## License
 
 This project is released under the MIT License.
