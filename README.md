@@ -1,32 +1,74 @@
-# TGSIM AV-HDV Comparative Behavior Analysis
+# The Empirical Pareto Frontier of Automated Driving: Consensus Across Safety, Interaction, and Traffic
 
-This repository contains code used for analyzing and comparing the behavior of Automated Vehicles (AVs) and Human-Driven Vehicles (HDVs) during left-turn interactions with vulnerable road users (VRUs) using the **Third Generation Simulation (TGSIM) Foggy Bottom** dataset.
+This repository contains the code and visualizations accompanying the paper  
+**“The Empirical Pareto Frontier of Automated Driving: Consensus Across Safety, Interaction, and Traffic”**  
+(*under review at Transportation Research Part C*).
+
+The study integrates data from the **Third Generation Simulation (TGSIM)** datasets, including **Foggy Bottom** and **I-395**, to analyze how automated and human-driven vehicles trade off **safety**, **interaction**, and **traffic performance** in real-world mixed traffic environments.
+
+---
+
+## Overview
+
+This project develops an empirical multi-dimensional framework that:
+- Quantifies **behavioral consensus** across safety, efficiency, and interaction dimensions  
+- Constructs an **empirical Pareto frontier** of automated driving  
+- Enables cross-context comparison between urban (Foggy Bottom) and freeway (I-395) settings  
+
+All computations and visualizations are performed through Jupyter notebooks.  
+`.ipynb` files are provided here for transparency and reproducibility.
+
+---
 
 ## Repository Contents
 
-**[TGSIM_Analysis_Published.ipynb](./TGSIM_Analysis_Published.ipynb)** is a fully annotated Jupyter notebook that calculates and generates:
-  - Time-to-Collision (TTC) and Post-Encroachment Time (PET) metrics
-  - Headways 
-  - Platoons
-  - String stability
-  - AV-VRU interactions across safety, interaction quality, and performance dimensions
-  - Key figures and plots featured in our initial paper submission
+| File | Description |
+|------|--------------|
+| **[TGSIM_FB_Metrics.ipynb](./TGSIM_FB_Metrics.ipynb)** | Metric computation for the Foggy Bottom dataset, including TTC, PET, headway, jerk, deceleration, proximity time, yielding delay, hesitation and platoon gain analyses. |
+| **[TGSIM_I-395_Metrics.ipynb](./TGSIM_I-395_Metrics.ipynb)** | Equivalent metric computation for the I-395 dataset, highlighting behavioral contrasts under highway conditions. |
+| **[TGSIM_Consensus.ipynb](./TGSIM_Consensus.ipynb)** | Consensus quantification across safety, interaction, and efficiency dimensions using threshold-based alignment and UpSet-style visualizations. |
+| **[Pareto.ipynb](./Pareto.ipynb)** | Derivation and visualization of the **Empirical Pareto Frontier**, showing trade-offs between behavioral objectives and identifying compliant versus non-compliant operating regimes. |
 
-## Data Dependency
+---
 
-**Note**: Due to file size limitations, the full trajectory dataset is **not included** in this repository.  
-You must download the `Third_Generation_Simulation_Data__TGSIM__Foggy_Bottom_Trajectories.csv` dataset separately from the U.S. Department of Transportation's Data Catalog:
+## Data Dependencies
 
-[TGSIM Foggy Bottom Dataset – data.gov](https://catalog.data.gov/dataset/third-generation-simulation-data-tgsim-foggy-bottom-trajectories)
+### 1. Foggy Bottom Dataset
+Available publicly from the U.S. Department of Transportation’s Data Catalog:  
+➡️ [TGSIM Foggy Bottom Dataset – data.gov](https://catalog.data.gov/dataset/third-generation-simulation-data-tgsim-foggy-bottom-trajectories)
+
+### 2. I-395 Dataset (SAE Level 2 AVs)
+Available publicly from the U.S. Department of Transportation’s Data Catalog:  
+➡️ [TGSIM I-395 – data.gov](https://catalog.data.gov/dataset/third-generation-simulation-data-tgsim-i-395-trajectories)
+
+
+> **Note:** Both datasets must be downloaded locally before running the `.ipynb` notebooks. 
+
+---
 
 ## Usage
 
 To reproduce the analysis:
-1. Download and extract the dataset locally.
-2. Update file paths in the notebook if needed.
-3. Run all cells in `TGSIM_Analysis_Published.ipynb` sequentially.
+1. Download and extract both datasets locally.  
+2. Update file paths in the notebooks if necessary.  
+3. Run all notebook cells sequentially to reproduce:
+   - Metric computation  
+   - Consensus quantification  
+   - Empirical Pareto construction  
+
+> **Note:**  
+> The analysis does not require generating every intermediate `.csv` file.  
+> You may modify the notebooks to pass intermediate **DataFrames** directly between cells or scripts instead of saving and reloading them.  
+> This approach streamlines execution and reduces file I/O without affecting results.
+---
+
+## Citation
+
+If you use this repository or build upon its analysis, please **cite this work directly**.  
+The full citation details will be provided once the paper is accepted or published.
+
+---
 
 ## License
 
-This project is released under the MIT License.
-
+This project is released under the **MIT License**.
