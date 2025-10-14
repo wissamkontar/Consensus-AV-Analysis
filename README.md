@@ -58,7 +58,7 @@ To reproduce the analysis:
 
 > **Note:**  
 > The analysis does not require generating every intermediate `.csv` file.  
-> You may modify the notebooks to pass intermediate **DataFrames** directly between cells or scripts instead of saving and reloading them.  
+> You may modify the notebooks to pass intermediate dataframes directly between cells or scripts instead of saving and reloading them.  
 > This approach streamlines execution and reduces file I/O without affecting results.
 ---
 
