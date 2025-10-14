@@ -70,7 +70,7 @@ Once the journal version is available, updated citation details will be provided
 **Suggested citation:**
 
 Elayan, M., & Kontar, W. (2025). *The Empirical Pareto Frontier of Automated Driving: Consensus Across Safety, Interaction, and Traffic (Code Repository).* GitHub.  
-Available at: https://github.com/wissamkontar/Consensus-AV-Analysis.git>
+Available at: https://github.com/wissamkontar/Consensus-AV-Analysis.git
 
 
 ---
