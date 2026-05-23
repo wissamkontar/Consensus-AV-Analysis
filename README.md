@@ -1,8 +1,8 @@
 # The Empirical Pareto Frontier of Automated Driving: Consensus Across Safety, Interaction, and Traffic
 
-This repository contains the code and visualizations accompanying the paper  
-**“The Empirical Pareto Frontier of Automated Driving: Consensus Across Safety, Interaction, and Traffic”**  
-(*under review at Transportation Research Part C*).
+This repository contains the code for the paper  
+**“Can Automated Vehicles Have it All? A Consensus Framework for Diagnosing Behavioral Trade-Offs in Mixed Traffic”**  
+(*Accepted for publication in Transportation Research Part C*).
 
 The study integrates data from the **Third Generation Simulation (TGSIM)** datasets, including **Foggy Bottom** and **I-395**, to analyze how automated and human-driven vehicles trade off **safety**, **interaction**, and **traffic performance** in real-world mixed traffic environments.
 
@@ -73,7 +73,7 @@ Once the journal version is available, updated citation details will be provided
 
 **Suggested citation:**
 
-Elayan, M., & Kontar, W. (2025). *The Empirical Pareto Frontier of Automated Driving: Consensus Across Safety, Interaction, and Traffic (Code Repository).* GitHub. Available at: https://github.com/wissamkontar/Consensus-AV-Analysis.git
+Elayan, M., & Kontar, W. (2026). *Can Automated Vehicles Have it All? A Consensus Framework for Diagnosing Behavioral Trade-Offs in Mixed Traffic (Code Repository).* GitHub. Available at: https://github.com/wissamkontar/Consensus-AV-Analysis.git
 
 
 ---
