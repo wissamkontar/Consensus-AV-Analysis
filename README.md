@@ -1,4 +1,4 @@
-# The Empirical Pareto Frontier of Automated Driving: Consensus Across Safety, Interaction, and Traffic
+# Can Automated Vehicles Have it All? A Consensus Framework for Diagnosing Behavioral Trade-Offs in Mixed Traffic
 
 This repository contains the code for the paper  
 **“Can Automated Vehicles Have it All? A Consensus Framework for Diagnosing Behavioral Trade-Offs in Mixed Traffic”**  
