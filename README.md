@@ -4,8 +4,9 @@ This repository contains the code for the paper
 **“Can Automated Vehicles Have it All? A Consensus Framework for Diagnosing Behavioral Trade-Offs in Mixed Traffic”**  
 (*Accepted for publication in Transportation Research Part C*).
 
-The study integrates data from the **Third Generation Simulation (TGSIM)** datasets, including **Foggy Bottom** and **I-395**, to analyze how automated and human-driven vehicles trade off **safety**, **interaction**, and **traffic performance** in real-world mixed traffic environments.
+This repository implements a framework for evaluating how driving behavior balances **safety**, **interaction**, and **traffic efficiency**. The framework quantifies behavioral alignment (consensus) and trade-offs using high-resolution trajectory data.
 
+The **Third Generation Simulation (TGSIM)** datasets (**Foggy Bottom** and **I-395**) are used as case studies to demonstrate how the framework captures these trade-offs in mixed traffic environments.
 
 ![Conceptual overview of the framework](Study_Flow.png)
 
@@ -14,10 +15,10 @@ The study integrates data from the **Third Generation Simulation (TGSIM)** datas
 
 ## Overview
 
-This project develops an empirical multi-dimensional framework that:
-- Quantifies **behavioral consensus** across safety, efficiency, and interaction dimensions  
-- Constructs an **empirical Pareto frontier** of automated driving  
-- Enables cross-context comparison between urban (Foggy Bottom) and freeway (I-395) settings  
+This project implements a multi-dimensional evaluation framework that:
+- Quantifies **behavioral consensus** across safety, efficiency, and interaction  
+- Identifies **trade-offs** using an empirical Pareto representation  
+- Supports comparison across different traffic contexts (urban vs. freeway)   
 
 All computations and visualizations are performed through Jupyter notebooks.  
 `.ipynb` files are provided here for transparency and reproducibility.
