@@ -7,7 +7,7 @@ This repository contains the code for the paper
 The study integrates data from the **Third Generation Simulation (TGSIM)** datasets, including **Foggy Bottom** and **I-395**, to analyze how automated and human-driven vehicles trade off **safety**, **interaction**, and **traffic performance** in real-world mixed traffic environments.
 
 
-![Conceptual overview of the framework](Figures/Consensus_Paper_Abstract_HR.gif)
+![Conceptual overview of the framework](Study_Flow.png)
 
 
 ---
