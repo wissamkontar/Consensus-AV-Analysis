@@ -2,7 +2,7 @@
 
 This repository contains the code for the paper  
 **“Can Automated Vehicles Have it All? A Consensus Framework for Diagnosing Behavioral Trade-Offs in Mixed Traffic”**  
-(*Accepted for publication in Transportation Research Part C*).
+(*Published in Transportation Research Part C*).
 
 This repository implements a framework for evaluating how driving behavior balances **safety**, **interaction**, and **traffic efficiency**. The framework quantifies behavioral alignment (consensus) and trade-offs using high-resolution trajectory data.
 
