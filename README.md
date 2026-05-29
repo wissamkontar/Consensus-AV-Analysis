@@ -69,12 +69,11 @@ To reproduce the analysis:
 
 ## Citation
 
-If you use this repository or its analysis in your research, please **cite it directly** until the paper is published.  
-Once the journal version is available, updated citation details will be provided here.
+If you use this repository or its analysis in your research, please **cite the paper**.
 
 **Suggested citation:**
 
-Elayan, M., & Kontar, W. (2026). *Can Automated Vehicles Have it All? A Consensus Framework for Diagnosing Behavioral Trade-Offs in Mixed Traffic (Code Repository).* GitHub. Available at: https://github.com/wissamkontar/Consensus-AV-Analysis.git
+Elayan, M., & Kontar, W. (2026). Can automated vehicles have it all? A consensus framework for diagnosing behavioral trade-offs in mixed traffic. Transportation Research Part C: Emerging Technologies, 190, 105782. https://doi.org/10.1016/j.trc.2026.105782
 
 
 ---
